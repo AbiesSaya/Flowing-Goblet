@@ -21,9 +21,7 @@
         <activity
             android:name=".ResistActivity"
             android:exported="false" />
-        <activity
-            android:name=".Resist"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

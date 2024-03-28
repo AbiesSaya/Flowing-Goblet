@@ -15,6 +15,7 @@
     </LinearLayout>
 
     <ImageView
+        android:id="@+id/profile"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginLeft="10dp"
@@ -26,7 +27,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Abies."
-
         android:textColor="@color/white"
         android:layout_marginLeft="15dp"
         android:textSize="22sp"/>
