@@ -16,10 +16,10 @@
             android:name=".UsageActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".SignInActivity"
             android:exported="false" />
         <activity
-            android:name=".ResistActivity"
+            android:name=".SignUpActivity"
             android:exported="false" />
 
         <activity
