@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Flowing Goblet</string>
     <string name="hello">Abies did not finished it </string>
+    <string name="title_activity_usage2">Usage2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

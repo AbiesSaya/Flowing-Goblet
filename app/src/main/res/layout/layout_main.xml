@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1">
+    android:background="@drawable/bg12">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,20 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="15dp"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/bth.usage.1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="450dp"/>
-
-        <Button
-            android:id="@+id/bth.usage.2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-        
-    </LinearLayout>
+        android:orientation="vertical"/>
 
 
 </LinearLayout>
