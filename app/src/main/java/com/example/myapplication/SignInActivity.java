@@ -16,7 +16,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.myapplication.util.ToastUtil;
 
-public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
+public class SignInActivity extends AppCompatActivity implements View.OnClickListener {
 
     //声明
     private Button mBLogin;
@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_signin);
 
         //find
         mBLogin=findViewById(R.id.login);
@@ -64,8 +64,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 //
                 //这里试一下封装好的toast
                 //
-                ToastUtil.showMsg(LoginActivity.this,ok);
-                intent=new Intent(LoginActivity.this,UsageActivity.class);
+                ToastUtil.showMsg(SignInActivity.this,ok);
+                intent=new Intent(SignInActivity.this,UsageActivity.class);
                 startActivity(intent);
             }else{
 //当不对的时候我我们需要做好一个弹出的toast

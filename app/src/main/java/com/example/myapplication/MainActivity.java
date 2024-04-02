@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         mBthLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1 =new Intent(MainActivity.this, ResistActivity.class);
+                Intent intent1 =new Intent(MainActivity.this, SignUpActivity.class);
 
                 startActivity(intent1);
             }
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         mBthLogin2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 =new Intent(MainActivity.this, LoginActivity.class);
+                Intent intent2 =new Intent(MainActivity.this, SignInActivity.class);
 
                 startActivity(intent2);
             }

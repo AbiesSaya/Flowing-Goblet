@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460668511645",
+    "project_id": "flowing-goblet",
+    "storage_bucket": "flowing-goblet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460668511645:android:e92f5c5801288a9d233b74",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS6ONkT2B3y5X1fvKH4bSE-BoFz5VCTfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
