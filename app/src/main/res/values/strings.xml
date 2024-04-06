@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Flowing Goblet</string>
     <string name="hello">Abies did not finished it </string>
+    <string name="welcome_words">Welcome To Flowing Goblet</string>
+    <string name="enter_nickname">Enter Nickname</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Conform Password</string>
+    <string name="register_button">Sign Up</string>
 </resources>
