@@ -59,6 +59,7 @@
 
         <EditText
             android:id="@+id/etPassword"
+            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
@@ -73,6 +74,7 @@
 
         <EditText
             android:id="@+id/confPassword"
+            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="25dp"
