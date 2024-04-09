@@ -8,16 +8,18 @@
 
     tools:context=".UsageActivity">
 
-<com.example.eva.SlideMenu
-    android:id="@+id/SlideMenu"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    <com.example.eva.SlideMenu
+        android:id="@+id/SlideMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
 
-    <!--  菜单界面的布局      -->
-    <include layout="@layout/layout_menu"/>
+        <!--  菜单界面的布局      -->
+        <include layout="@layout/layout_menu" />
 
-    <!--  主界面的布局      -->
-    <include layout="@layout/layout_main"/>
-</com.example.eva.SlideMenu>
+        <!--  主界面的布局      -->
+        <include layout="@layout/layout_main" />
+    </com.example.eva.SlideMenu>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

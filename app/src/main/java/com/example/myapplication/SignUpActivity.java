@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+
 import static android.content.ContentValues.TAG;
 
 import android.content.Intent;
@@ -13,10 +14,12 @@ import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
 
 import com.example.myapplication.databinding.ActivitySignupBinding;
 import com.example.myapplication.util.Constants;
@@ -114,4 +117,5 @@ public class SignUpActivity extends AppCompatActivity {
                     showToast(exception.getMessage());
                 });
     }
+
 }

@@ -8,12 +8,16 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/flowg"
+        android:icon="@mipmap/fg2test"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/flowg"
+        android:roundIcon="@mipmap/fg2test"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+        <activity
+            android:name=".Usage2Activity"
+            android:exported="false"
+            android:label="@string/title_activity_usage2" />
         <activity
             android:name=".UsageActivity"
             android:exported="false" />
@@ -23,7 +27,6 @@
         <activity
             android:name=".SignUpActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
