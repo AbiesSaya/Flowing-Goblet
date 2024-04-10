@@ -24,6 +24,7 @@ import androidx.core.view.WindowInsetsCompat;
 import com.example.myapplication.databinding.ActivitySignupBinding;
 import com.example.myapplication.util.Constants;
 import com.example.myapplication.util.PreferenceManager;
+import com.example.myapplication.util.VerifyActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -109,7 +110,7 @@ public class SignUpActivity extends AppCompatActivity {
                     preferenceManager.putBoolean(Constants.KEY_IS_SIGNED_IN, true);
                     preferenceManager.putString(Constants.KEY_USER_ID, documentReference.getId());
                     preferenceManager.putString(Constants.KEY_NAME, binding.etNickname.getText().toString());
-                    Intent intent = new Intent(getApplicationContext(), UsageActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), VerifyActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
                 })

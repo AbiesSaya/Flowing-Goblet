@@ -17,10 +17,7 @@
         <activity
             android:name=".util.VerifyActivity"
             android:exported="false" />
-        <activity
-            android:name=".Usage2Activity"
-            android:exported="false"
-            android:label="@string/title_activity_usage2" />
+
         <activity
             android:name=".UsageActivity"
             android:exported="false" />
