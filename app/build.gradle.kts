@@ -41,6 +41,8 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
 
+
+
     implementation(libs.firebase.messaging)
     implementation(libs.firebase.firestore)
     implementation(libs.firebase.database)
@@ -60,5 +62,11 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
 
     implementation("com.google.firebase:firebase-auth:22.3.1")
+
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+
+
+
+
 
 }

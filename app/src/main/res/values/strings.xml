@@ -12,5 +12,8 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="web_client_id">1:460668511645:android:e92f5c5801288a9d233b74</string>
+    <string name="oauth_client_id">460668511645-g64nsudmsdt3mlq3iieapo00p1t57q1h.apps.googleusercontent.com</string>
+
 
 </resources>

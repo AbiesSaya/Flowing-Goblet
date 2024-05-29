@@ -88,4 +88,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
     public void onPointerCaptureChanged(boolean hasCapture) {
         super.onPointerCaptureChanged(hasCapture);
     }
+
+    public static class GoogleSingInactive {
+    }
 }

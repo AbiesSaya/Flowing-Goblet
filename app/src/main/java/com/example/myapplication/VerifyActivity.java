@@ -1,4 +1,4 @@
-package com.example.myapplication.util;
+package com.example.myapplication;
 
 import android.os.Bundle;
 
@@ -22,5 +22,6 @@ public class VerifyActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
     }
 }
