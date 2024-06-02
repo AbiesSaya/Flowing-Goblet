@@ -6,29 +6,14 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import java.util.ArrayList;
 import java.util.List;
-import com.example.myapplication.ChatMessage;
-import com.example.myapplication.R;
-
-
 
 public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MessageViewHolder> {
 
     private List<ChatMessage> mMessages;
 
-    public ChatAdapter() {
-        mMessages = new ArrayList<>();
-    }
-
-    public void addMessage(ChatMessage message) {
-        mMessages.add(message);
-        notifyItemInserted(mMessages.size() - 1);
-    }
-
-    public void clearMessages() {
-        mMessages.clear();
-        notifyDataSetChanged();
+    public ChatAdapter(List<ChatMessage> messages) {
+        mMessages = messages;
     }
 
     @NonNull

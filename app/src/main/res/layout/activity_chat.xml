@@ -8,7 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/input_layout"
-        android:padding="8dp"/>
+        android:layout_marginBottom="0dp"
+        android:padding="8dp" />
 
     <LinearLayout
         android:id="@+id/input_layout"
