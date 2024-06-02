@@ -30,7 +30,7 @@ public class UsageActivity extends AppCompatActivity {
         mBback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1 =new Intent(UsageActivity.this, UsageActivity.class);
+                Intent intent1 =new Intent(UsageActivity.this, ChatActivity.class);
 
                 startActivity(intent1);
             }
